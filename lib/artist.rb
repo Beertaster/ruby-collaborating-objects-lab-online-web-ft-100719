@@ -21,9 +21,8 @@ class Artist
     @@all 
   end
   
-  def self.add_song 
-    
-  end
+  
+  
   
   
 end
