@@ -9,7 +9,9 @@ class Artist
     @songs = [] 
   end
   
-  
+  def self.all 
+    @@all 
+  end
   
   def add_song(song)
     @songs << song 
@@ -19,7 +21,12 @@ class Artist
     @@all << self 
   end
   
-  
+  def self.find_or_create_by_name(name)
+    
+    
+    
+    
+  end
   
   
   
