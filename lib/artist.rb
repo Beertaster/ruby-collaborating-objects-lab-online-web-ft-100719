@@ -25,7 +25,10 @@ class Artist
     
     new_name = self.all.find {|artist| artist.name == artist_name}
     
-    
+    if new_name 
+      new_name
+    else
+      
     
     
     
