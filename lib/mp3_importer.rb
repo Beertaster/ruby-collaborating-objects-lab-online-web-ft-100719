@@ -11,7 +11,7 @@ class MP3Importer
   end
   
   def import 
-    
+    song.each do { |song| song.
   end
   
   
