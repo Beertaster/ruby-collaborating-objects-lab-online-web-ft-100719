@@ -28,7 +28,7 @@ class Artist
     if new_name 
       new_name
     else
-      
+      new_name = self.new()
     
     
     
